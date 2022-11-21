@@ -1,4 +1,4 @@
-<footer id="colorlib-footer" role="contentinfo">
+<footer id="bottom-footer" role="contentinfo">
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col footer-col colorlib-widget">
@@ -13,29 +13,16 @@
 							</ul>
 						</p>
 					</div>
-					<div class="col footer-col colorlib-widget">
-						<h4>Customer Care</h4>
-						<p>
-							<ul class="colorlib-footer-links">
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Returns/Exchange</a></li>
-								<li><a href="#">Gift Voucher</a></li>
-								<li><a href="#">Wishlist</a></li>
-								<li><a href="#">Special</a></li>
-								<li><a href="#">Customer Services</a></li>
-								<li><a href="#">Site maps</a></li>
-							</ul>
-						</p>
-					</div>
+					
 					<div class="col footer-col colorlib-widget">
 						<h4>Information</h4>
 						<p>
 							<ul class="colorlib-footer-links">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Delivery Information</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Support</a></li>
-								<li><a href="#">Order Tracking</a></li>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Men</a></li>
+								<li><a href="#">Women</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
 							</ul>
 						</p>
 					</div>

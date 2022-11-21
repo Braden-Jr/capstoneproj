@@ -104,7 +104,7 @@
 		<div class="production-product">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
+					<div class="col-sm-8 offset-sm-2 text-center head-heading">
 						<h2>Best Sellers</h2>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 		<div class="prtn-partner">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+					<div class="col-sm-8 offset-sm-2 text-center head-heading head-heading-sm">
 						<h2>Trusted Partners</h2>
 					</div>
 				</div>

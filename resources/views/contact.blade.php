@@ -1,6 +1,6 @@
 @extends('master')
 @section('contents')	
-	<div class="colorlib-loader"></div>
+	<div class="loading-loader"></div>
 
 	<div id="page">
 		
@@ -8,7 +8,7 @@
 		
 
 
-		<div id="colorlib-contact">
+		<div id="cntact-contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">

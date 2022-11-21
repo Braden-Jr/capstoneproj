@@ -1,7 +1,7 @@
 
 @extends('master')
 @section('contents')		
-	<div class="colorlib-loader"></div>
+	<div class="loading-loader"></div>
 
 	<div id="page">
 		
@@ -9,7 +9,7 @@
 	
 
 
-		<div class="colorlib-product">
+		<div class="production-product">
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-md-10 offset-md-1">
@@ -173,7 +173,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+					<div class="col-sm-8 offset-sm-2 text-center head-heading head-heading-sm">
 						<h2>Related Products</h2>
 					</div>
 				</div>

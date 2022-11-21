@@ -8,7 +8,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rokkitt:100,300,400,700" rel="stylesheet">
-	
+	<script src="https://kit.fontawesome.com/7bdd8c7561.js" crossorigin="anonymous"></script>
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

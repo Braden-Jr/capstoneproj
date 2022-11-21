@@ -1,6 +1,6 @@
 @extends('master')
 @section('contents')
-	<div class="colorlib-loader"></div>
+	<div class="loading-loader"></div>
 
 	<div id="page">
 		
@@ -8,11 +8,11 @@
 		
 
 
-		<div class="colorlib-about">
+		<div class="history-about">
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-sm-6 mb-3">
-						<div class="video colorlib-video" style="background-image: url(images/about.jpg);">
+						<div class="video -video" style="background-image: url(images/about.jpg);">
 							<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play3"></i></a>
 							<div class="overlay"></div>
 						</div>

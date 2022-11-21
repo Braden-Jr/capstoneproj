@@ -1,14 +1,14 @@
 @extends('master')
 @section('contents')
 		
-	<div class="colorlib-loader"></div>
+	<div class="loading-loader"></div>
 
 	<div id="page">
 		
 
 		
 
-		<div class="colorlib-product">
+		<div class="production-product">
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-sm-10 offset-md-1">

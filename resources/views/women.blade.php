@@ -4,6 +4,21 @@
 	<div class="loading-loader"></div>
 
 	<div id="page">
+
+	<div class="breadcrumbs-two">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs-img" style="background-image: url(https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80);">
+							<h2 class="changetowhite">Women's</h2>
+						</div>
+						<div class="menu text-center">
+							<p><a href="#">New Arrivals</a> <a href="#">Best Sellers</a> <a href="#">Extended Widths</a> <a href="#">Sale</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 
 		<div class="ftrd-featured">
@@ -37,7 +52,7 @@
 			</div>
 		</div>
 
-		<div class="colorlib-product">
+		<div class="production-product">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-xl-3">
@@ -129,10 +144,10 @@
 			</div>
 		</div>
 
-		<div class="colorlib-partner">
+		<div class="prtn-partner">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+					<div class="col-sm-8 offset-sm-2 text-center head-heading head-heading-sm">
 						<h2>Trusted Partners</h2>
 					</div>
 				</div>
