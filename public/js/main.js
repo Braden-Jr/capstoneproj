@@ -46,14 +46,14 @@
 	var offcanvasMenu = function() {
 
 		$('#page').prepend('<div id="-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle colorlib-nav-white"><i></i></a>');
+		$('#page').prepend('<a href="#" class="js-navigations-nav-toggle navigations-nav-toggle navigations-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
-		$('#colorlib-offcanvas').append(clone1);
+		$('#navigations-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
-		$('#colorlib-offcanvas').append(clone2);
+		$('#navigations-offcanvas').append(clone2);
 
-		$('#colorlib-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
-		$('#colorlib-offcanvas')
+		$('#navigations-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
+		$('#navigations-offcanvas')
 			.find('li')
 			.removeClass('has-dropdown');
 
@@ -80,7 +80,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
+    			$('.js-navigations-nav-toggle').removeClass('active');
 				
 	    	}
 		});
@@ -89,7 +89,7 @@
 
 	var burgerMenu = function() {
 
-		$('body').on('click', '.js-colorlib-nav-toggle', function(event){
+		$('body').on('click', '.js-navigations-nav-toggle', function(event){
 			var $this = $(this);
 
 

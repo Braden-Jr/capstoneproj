@@ -130,7 +130,7 @@
 			</div>
 		</div>
 
-		<div class="prtn-partner">
+		<!-- <div class="prtn-partner">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 offset-sm-2 text-center head-heading head-heading-sm">
@@ -156,7 +156,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		
 	</div>
