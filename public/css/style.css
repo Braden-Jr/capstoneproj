@@ -7527,108 +7527,108 @@ h1, h2, h3, h4, h5,
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0); }
 
-#colorlib-hero {
+#clr-hero {
   height: 600px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   z-index: 0; }
-  #colorlib-hero .btn {
+  #clr-hero .btn {
     font-size: 24px; }
-    #colorlib-hero .btn.btn-primary {
+    #clr-hero .btn.btn-primary {
       padding: 14px 30px !important; }
-  #colorlib-hero .flexslider {
+  #clr-hero .flexslider {
     border: none;
     z-index: 1;
     margin-bottom: 0; }
-    #colorlib-hero .flexslider .slides {
+    #clr-hero .flexslider .slides {
       position: relative;
       overflow: hidden; }
-      #colorlib-hero .flexslider .slides li {
+      #clr-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         height: 600px;
         position: relative; }
-        #colorlib-hero .flexslider .slides li .overlay {
+        #clr-hero .flexslider .slides li .overlay {
           position: absolute;
           top: 0;
           bottom: 0;
           left: 0;
           right: 0; }
-    #colorlib-hero .flexslider .flex-control-nav {
+    #clr-hero .flexslider .flex-control-nav {
       bottom: 2em;
       z-index: 1000;
       width: 0 auto; }
-      #colorlib-hero .flexslider .flex-control-nav li a {
+      #clr-hero .flexslider .flex-control-nav li a {
         background: rgba(255, 255, 255, 0.3);
         -webkit-box-shadow: none;
         box-shadow: none;
         width: 12px;
         height: 12px;
         cursor: pointer; }
-        #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
+        #clr-hero .flexslider .flex-control-nav li a.flex-active {
           cursor: pointer;
           background: transparent;
           background: #88c8bc; }
-    #colorlib-hero .flexslider .flex-direction-nav {
+    #clr-hero .flexslider .flex-direction-nav {
       display: none; }
-    #colorlib-hero .flexslider .slider-text {
+    #clr-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
       height: 600px;
       z-index: 9; }
-      #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+      #clr-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle; }
         @media (max-width: 767.98px) {
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+          #clr-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
+        #clr-hero .flexslider .slider-text > .slider-text-inner .desc {
           display: inline-block;
           position: relative;
           z-index: 0; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #clr-hero .flexslider .slider-text > .slider-text-inner h1, #clr-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
           color: #fff;
           text-transform: uppercase;
           line-height: 1.2; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+        #clr-hero .flexslider .slider-text > .slider-text-inner h1 {
           color: #fff; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .head-1 {
+        #clr-hero .flexslider .slider-text > .slider-text-inner .head-1 {
           font-weight: 700;
           font-size: 60px;
           margin-bottom: 0px; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .head-2 {
+        #clr-hero .flexslider .slider-text > .slider-text-inner .head-2 {
           font-size: 30px;
           font-weight: 500;
           margin-bottom: 0px;
           letter-spacing: 5px; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .head-3 {
+        #clr-hero .flexslider .slider-text > .slider-text-inner .head-3 {
           font-size: 50px;
           font-weight: 100;
           margin-bottom: 0px; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .category {
+        #clr-hero .flexslider .slider-text > .slider-text-inner .category {
           margin-bottom: 30px; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .category span {
+          #clr-hero .flexslider .slider-text > .slider-text-inner .category span {
             font-weight: 100;
             font-size: 20px;
             color: rgba(255, 255, 255, 0.8); }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+        #clr-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
           color: #fff;
           padding: 20px 30px !important;
           border: none; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+          #clr-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             background: #616161;
             color: #fff; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
+          #clr-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
             background: #000 !important; }
           @media (max-width: 767.98px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+            #clr-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
 .breadcrumbs {
@@ -7703,6 +7703,15 @@ h1, h2, h3, h4, h5,
     font-size: 40px; }
     .featured .desc h2 a {
       color: #000; }
+
+/* .featured-img{
+    width: 80%;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-around;
+}      */
+
+
 
 .product-entry {
   display: block;

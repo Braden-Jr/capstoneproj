@@ -19,9 +19,9 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="about-wrap">
-							<h2>Footwear the leading eCommerce Store around the Globe</h2>
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-							<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+							<h2>The fastest growing sneaker company you’ve never heard of</h2>
+							<p>JBJRL faces growing competition from Internet-based businesses that sell similar merchandise, often at deep discounts. Many price-conscious customers visit your brick-and-mortar store, try on a pair of desirable shoes and order the footwear from the online retailer. You can address this revenue loss by forming a partnership with a supply-chain specialty firm. When a customer wants a specific shoe size, and your store does not stock that pair, the supply chain firm locates the shoes at a nearby store. Your customer purchases the shoes from that retailer, and you receive sales revenue according to your agreement with your supply chain partner.</p>
+							
 						</div>
 					</div>
 				</div>

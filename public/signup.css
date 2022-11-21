@@ -1,0 +1,16 @@
+.card-container{
+    width: 40%;
+    display: flex;
+    margin: 0 auto ;
+}
+.card-body{
+    background-color: #88c8bc;
+}
+.form-label{
+    color: black;
+   
+    
+}
+.fa{
+    color: black;
+}

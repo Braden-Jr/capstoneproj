@@ -2,8 +2,8 @@
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col footer-col colorlib-widget">
-						<h4>About Footwear</h4>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+						<h4>About JBJRL</h4>
+						<p>JBJRL faces growing competition from Internet-based businesses that sell similar merchandise, often at deep discounts. Many price-conscious customers visit your brick-and-mortar store, try on a pair of desirable shoes and order the footwear from the online retailer. </p>
 						<p>
 							<ul class="colorlib-social-icons">
 								<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -40,22 +40,15 @@
 						</p>
 					</div>
 
-					<div class="col footer-col">
-						<h4>News</h4>
-						<ul class="colorlib-footer-links">
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Exhibitions</a></li>
-						</ul>
-					</div>
+					
 
 					<div class="col footer-col">
 						<h4>Contact Information</h4>
 						<ul class="colorlib-footer-links">
-							<li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
+							<li>W Fifth Ave, <br> BGC Taguig</li>
 							<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-							<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li><a href="#">yoursite.com</a></li>
+							<li><a href="mailto:info@yoursite.com">JBJRL@gmail.com</a></li>
+							<li><a href="#">JBJRL.com</a></li>
 						</ul>
 					</div>
 				</div>

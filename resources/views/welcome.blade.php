@@ -9,10 +9,10 @@
 
 	<div id="page">
 		
-		<aside id="colorlib-hero">
+		<aside id="clr-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_1.jpg);">
+			   	<li style="background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bcc7b3fc0164b349f5aaed201048fe1_9366/Fluidflow_2.0_Shoes_Blue_GW4012_01_standard.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -30,7 +30,7 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
+			   	<li style="background-image: url(https://www.chanel.com/images//t_one///q_auto:good,f_auto,fl_lossy,dpr_1.2/w_620/loafers-black-patent-calfskin-metal-patent-calfskin-metal-packshot-artistique-vue1-g39697x5682894305-9516401819678.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -48,7 +48,7 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/img_bg_3.jpg);">
+			   	<li style="background-image: url(https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1664264711/725932_FAA1P_1155_001_100_0000_Light-Mens-Rhyton-sneaker.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -73,7 +73,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<h2 class="intro">It started with a simple idea: Create quality, well-designed products that I wanted myself.</h2>
+						<h2 class="intro">The journey begins with the perfect pair.</h2>
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 				<div class="row">
 					<div class="col-sm-6 text-center">
 						<div class="featured">
-							<a href="#" class="featured-img" style="background-image: url(images/men.jpg);"></a>
+							<a href="#" class="featured-img" style="background-image: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bcc7b3fc0164b349f5aaed201048fe1_9366/Fluidflow_2.0_Shoes_Blue_GW4012_01_standard.jpg');"></a>
 							<div class="desc">
 								<h2><a href="#">Shop Men's Collection</a></h2>
 							</div>
@@ -91,7 +91,7 @@
 					</div>
 					<div class="col-sm-6 text-center">
 						<div class="featured">
-							<a href="#" class="featured-img" style="background-image: url(boyshoes.jpeg);"></a>
+							<a href="#" class="featured-img" style="background-image: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d934c260d8eb4e699908aecb00dc8e5d_9366/adidas_4DFWD_x_Parley_Shoes_Blue_GX6604_01_standard.jpg');"></a>
 							<div class="desc">
 								<h2><a href="#">Shop Women's Collection</a></h2>
 							</div>
@@ -112,7 +112,7 @@
 					<div class="col-lg-3 mb-4 text-center">
 						<div class="product-entry border">
 							<a href="#" class="prod-img">
-								<img src="images/item-1.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+								<img src="'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d934c260d8eb4e699908aecb00dc8e5d_9366/adidas_4DFWD_x_Parley_Shoes_Blue_GX6604_01_standard.jpg'" class="img-fluid" alt="">
 							</a>
 							<div class="desc">
 								<h2><a href="#">Women's Boots Shoes Maca</a></h2>
@@ -139,19 +139,19 @@
 				</div>
 				<div class="row">
 					<div class="col partner-col text-center">
-						<img src="images/brand-1.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/FILA.png" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="images/brand-2.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Vans.png" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="images/brand-3.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Nike.png" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="images/brand-4.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Converse.png" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="images/brand-5.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+						<img src="" class="" alt="">
 					</div>
 				</div>
 			</div>
