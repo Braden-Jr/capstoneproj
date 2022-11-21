@@ -287,7 +287,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="ion-ios-arrow-up"></i></a>
+		<a href="#" class="js-gotop"><i class="fa-solid fa-arrow-up"></i></a>
 	</div>
 	
 	

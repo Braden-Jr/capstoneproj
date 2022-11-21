@@ -148,8 +148,9 @@
 						<img src="{{ asset('img/brand-3.jpg') }}" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Converse.png" class="img-fluid" alt="">
+						<img src="{{ asset('img/finalcon.jpg') }}" class="img-fluid" alt="">
 					</div>
+
 					<div class="col partner-col text-center">
 						<img src="{{ asset('img/brand-5.jpg') }}" class="img-fluid" alt="">
 					</div>
@@ -161,7 +162,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="ion-ios-arrow-up"></i></a>
+		<a href="#" class="js-gotop"><i class="fa-solid fa-arrow-up"></i></a>
 	</div>
 	
 @endsection

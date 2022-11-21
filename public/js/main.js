@@ -26,13 +26,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#colorlib-offcanvas, .js-colorlib-nav-toggle");
+	    var container = $("#navigations-offcanvas, .js-navigations-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
+    			$('.js-navigations-nav-toggle').removeClass('active');
 				
 	    	}
 	    
@@ -45,7 +45,7 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="colorlib-offcanvas" />');
+		$('#page').prepend('<div id="-offcanvas" />');
 		$('#page').prepend('<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle colorlib-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#colorlib-offcanvas').append(clone1);

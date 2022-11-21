@@ -12,10 +12,7 @@
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-sm-6 mb-3">
-						<div class="video -video" style="background-image: url(images/about.jpg);">
-							<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play3"></i></a>
-							<div class="overlay"></div>
-						</div>
+					<img src="https://images.unsplash.com/photo-1596936248374-dd8478d4e5b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="img-fluid" alt="">
 					</div>
 					<div class="col-sm-6">
 						<div class="about-wrap">
@@ -31,7 +28,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="ion-ios-arrow-up"></i></a>
+		<a href="#" class="js-gotop"><i class="fa-solid fa-arrow-up"></i></a>
 	</div>
 	@endsection
 	

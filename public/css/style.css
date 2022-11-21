@@ -8339,9 +8339,9 @@ h1, h2, h3, h4, h5,
       color: #000; }
 
 .contact-wrap {
-  padding: 2em;
+  padding: 1.5em;
   background: whitesmoke;
-  height: 100%; }
+  height: 95.8%; }
 
 .contact-form label {
   font-weight: 400; }
@@ -8388,10 +8388,10 @@ input[type="text"] {
     #map {
       height: 300px; } }
 
-.colorlib-social-icons {
+.socialss-social-icons {
   margin: 0;
   padding: 0; }
-  .colorlib-social-icons li {
+  .socialss-social-icons li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -8399,7 +8399,7 @@ input[type="text"] {
     display: inline-block;
     zoom: 1;
     *display: inline; }
-    .colorlib-social-icons li a {
+    .socialss-social-icons li a {
       display: -moz-inline-stack;
       display: inline-block;
       zoom: 1;
@@ -8407,7 +8407,7 @@ input[type="text"] {
       color: #616161;
       padding-left: 10px;
       padding-right: 10px; }
-      .colorlib-social-icons li a i {
+      .socialss-social-icons li a i {
         font-size: 20px; }
 
 .head-heading {
@@ -8458,10 +8458,10 @@ input[type="text"] {
       -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       max-width: 100%; } }
-  #bottom-footer .colorlib-social-icons li a {
+  #bottom-footer .socialss-social-icons li a {
     padding-left: 10px;
     padding-right: 10px; }
-    #bottom-footer .colorlib-social-icons li a:first-child {
+    #bottom-footer .socialss-social-icons li a:first-child {
       padding-left: 0; }
   #bottom-footer h4 {
     margin-bottom: 30px;
