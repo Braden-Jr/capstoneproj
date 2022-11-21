@@ -197,7 +197,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".colorlib-loader").fadeOut("slow");
+		$(".load-loader").fadeOut("slow");
 	};
 
 

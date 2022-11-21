@@ -41,7 +41,7 @@ Route::get('/cart', function () {
     return view('cart' );    
 });
 
-Route::get('/product detail', function () {
+Route::get('/product-detail', function () {
     return view('product-detail' );    
 });
 
@@ -49,11 +49,11 @@ Route::get('/checkout', function () {
     return view('checkout' );    
 });
 
-Route::get('/order complete', function () {
+Route::get('/order-complete', function () {
     return view('order-complete' );    
 });
 
-Route::get('/wishlist', function () {
+Route::get('/add-to-wishlist', function () {
     return view('add-to-wishlist' );    
 });
 

@@ -2,8 +2,8 @@
 			<div class="top-menu">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-7 col-md-9">
-							<div id="colorlib-logo"><a href="home "><img src="{{ asset('img/sneakerlogo.png') }}">
+					<div class="col-sm-7 col-md-9">
+							<div id="colorlib-logo"><a href="home"><img class="logopic" src="{{ asset('img/sneakerlogo.png') }}" >
 							</a></div>
 						</div>
 						<div class="col-sm-5 col-md-3">
@@ -22,7 +22,7 @@
 								<li class="has-dropdown">
 									<a href="men">Men</a>
 									<ul class="dropdown">
-										<li><a href="product-detail.">Product Detail</a></li>
+										<li><a href="product-detail">Product Detail</a></li>
 										<li><a href="cart">Shopping Cart</a></li>
 										<li><a href="checkout">Checkout</a></li>
 										<li><a href="order-complete">Order Complete</a></li>

@@ -139,19 +139,19 @@
 				</div>
 				<div class="row">
 					<div class="col partner-col text-center">
-						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/FILA.png" class="img-fluid" alt="">
+						<img src="{{ asset('img/brand-1.jpg') }}" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Vans.png" class="img-fluid" alt="">
+						<img src="{{ asset('img/brand-2.jpg') }}" class="img-fluid" alt="">
 					</div>
-					<div class="col partner-col text-center">
-						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Nike.png" class="img-fluid" alt="">
+					<<div class="col partner-col text-center">
+						<img src="{{ asset('img/brand-3.jpg') }}" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
 						<img src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/40-Famous-Shoe-Logos/Converse.png" class="img-fluid" alt="">
 					</div>
 					<div class="col partner-col text-center">
-						<img src="" class="" alt="">
+						<img src="{{ asset('img/brand-5.jpg') }}" class="img-fluid" alt="">
 					</div>
 				</div>
 			</div>

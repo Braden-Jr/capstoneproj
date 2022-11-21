@@ -7673,12 +7673,12 @@ h1, h2, h3, h4, h5,
 #colorlib-contact,
 .colorlib-about,
 .colorlib-partner,
-.colorlib-intro,
+.introduction-intro,
 .colorlib-product {
   padding: 7em 0;
   clear: both; }
 
-.colorlib-intro {
+.introduction-intro {
   padding-bottom: 0; }
 
 .intro {
@@ -8841,7 +8841,7 @@ input[type="text"] {
   padding: 0 !important;
   margin: 0 !important; }
 
-.colorlib-loader {
+.load-loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -8852,3 +8852,17 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+.logopic {
+  margin-left: -150px;
+  width: 50%;
+  margin-bottom: -50px;
+}
+
+@media (max-width: 996px){
+    .logopic {
+      margin-left: 0px;
+      width: 80%;
+      margin-bottom: -26px;
+    }
+  }
