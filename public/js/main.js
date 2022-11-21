@@ -197,7 +197,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".load-loader").fadeOut("slow");
+		$(".loading-loader").fadeOut("slow");
 	};
 
 

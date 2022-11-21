@@ -1,12 +1,12 @@
 @extends('master')
 @section('contents')
 		
-	<div class="colorlib-loader"></div>
+	<div class="loading-loader"></div>
 
 	<div id="page">
 		
 
-		<div class="colorlib-featured">
+		<div class="ftrd-featured">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-4 text-center">
@@ -46,11 +46,11 @@
 								<div class="side border mb-1">
 									<h3>Brand</h3>
 									<ul>
-										<li><a href="#">Nike</a></li>
 										<li><a href="#">Adidas</a></li>
-										<li><a href="#">Merrel</a></li>
+										<li><a href="#">Nike</a></li>
 										<li><a href="#">Gucci</a></li>
-										<li><a href="#">Skechers</a></li>
+										<li><a href="#">Converse</a></li>
+										<li><a href="#">Puma</a></li>
 									</ul>
 								</div>
 							</div>
@@ -86,53 +86,10 @@
 					            </div>
 								</div>
 							</div>
-							<div class="col-sm-12">
-								<div class="side border mb-1">
-									<h3>Style</h3>
-									<ul>
-										<li><a href="#">Slip Ons</a></li>
-										<li><a href="#">Boots</a></li>
-										<li><a href="#">Sandals</a></li>
-										<li><a href="#">Lace Ups</a></li>
-										<li><a href="#">Oxfords</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-12">
-								<div class="side border mb-1">
-									<h3>Colors</h3>
-									<ul>
-										<li><a href="#">Black</a></li>
-										<li><a href="#">White</a></li>
-										<li><a href="#">Blue</a></li>
-										<li><a href="#">Red</a></li>
-										<li><a href="#">Green</a></li>
-										<li><a href="#">Grey</a></li>
-										<li><a href="#">Orange</a></li>
-										<li><a href="#">Cream</a></li>
-										<li><a href="#">Brown</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-12">
-								<div class="side border mb-1">
-									<h3>Material</h3>
-									<ul>
-										<li><a href="#">Leather</a></li>
-										<li><a href="#">Suede</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-12">
-								<div class="side border mb-1">
-									<h3>Technologies</h3>
-									<ul>
-										<li><a href="#">BioBevel</a></li>
-										<li><a href="#">Groove</a></li>
-										<li><a href="#">FlexBevel</a></li>
-									</ul>
-								</div>
-							</div>
+							
+							
+							
+							
 						</div>
 					</div>
 					<div class="col-lg-9 col-xl-9">

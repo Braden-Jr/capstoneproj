@@ -5,7 +5,7 @@
 
 
 		
-	<div class="colorlib-loader"></div>
+	<div class="loading-loader"></div>
 
 	<div id="page">
 		
@@ -48,7 +48,7 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1664264711/725932_FAA1P_1155_001_100_0000_Light-Mens-Rhyton-sneaker.jpg);">
+			   	<li style="background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/376807/03/sv01/fnd/PHL/fmt/png/Deviate-NITRO-);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -69,7 +69,7 @@
 			  	</ul>
 		  	</div>
 		</aside>
-		<div class="colorlib-intro">
+		<div class="introduction-intro">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="colorlib-product">
+		<div class="production-product">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-6 text-center">
@@ -91,7 +91,7 @@
 					</div>
 					<div class="col-sm-6 text-center">
 						<div class="featured">
-							<a href="#" class="featured-img" style="background-image: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d934c260d8eb4e699908aecb00dc8e5d_9366/adidas_4DFWD_x_Parley_Shoes_Blue_GX6604_01_standard.jpg');"></a>
+							<a href="#" class="featured-img" style="background-image: url(https://media.gucci.com/style/HEXEAF2DC_Center_0_0_2400x2400/1656519346/707703_KSP20_8461_001_100_0000_Light-Gucci-Lovelight-crystal-ballet-flat-with-Horsebit.jpg);"></a>
 							<div class="desc">
 								<h2><a href="#">Shop Women's Collection</a></h2>
 							</div>
@@ -101,7 +101,7 @@
 			</div>
 		</div>
 
-		<div class="colorlib-product">
+		<div class="production-product">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
@@ -112,11 +112,11 @@
 					<div class="col-lg-3 mb-4 text-center">
 						<div class="product-entry border">
 							<a href="#" class="prod-img">
-								<img src="'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d934c260d8eb4e699908aecb00dc8e5d_9366/adidas_4DFWD_x_Parley_Shoes_Blue_GX6604_01_standard.jpg'" class="img-fluid" alt="">
+								<img src="https://media.gucci.com/style/HEXEAF2DC_Center_0_0_2400x2400/1656519346/707703_KSP20_8461_001_100_0000_Light-Gucci-Lovelight-crystal-ballet-flat-with-Horsebit.jpg" class="img-fluid" alt="">
 							</a>
 							<div class="desc">
-								<h2><a href="#">Women's Boots Shoes Maca</a></h2>
-								<span class="price">$139.00</span>
+								<h2><a href="#">GUCCI LOVELIGHT CRYSTAL BALLET WITH HORSEBIT</a></h2>
+								<span class="price">52,730</span>
 							</div>
 						</div>
 					</div>
@@ -130,7 +130,7 @@
 			</div>
 		</div>
 
-		<div class="colorlib-partner">
+		<div class="prtn-partner">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">

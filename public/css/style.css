@@ -7672,9 +7672,9 @@ h1, h2, h3, h4, h5,
 
 #colorlib-contact,
 .colorlib-about,
-.colorlib-partner,
+.prtn-partner,
 .introduction-intro,
-.colorlib-product {
+.production-product {
   padding: 7em 0;
   clear: both; }
 
@@ -8841,7 +8841,7 @@ input[type="text"] {
   padding: 0 !important;
   margin: 0 !important; }
 
-.load-loader {
+.loading-loader {
   position: fixed;
   left: 0px;
   top: 0px;
