@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\AccountController;
+use App\Http\Controllers\ProductController;
+use App\Http\Middleware\EnsureTokenIsValid;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,21 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
-    return view('welcome');
-});
-
-Route::get('/men', function () {
-    return view('men' );    
-});
-
-Route::get('/women', function () {
-    return view('women' );    
-});
 
 Route::get('/about', function () {
     return view('about' );    
@@ -41,9 +29,6 @@ Route::get('/cart', function () {
     return view('cart' );    
 });
 
-Route::get('/product-detail', function () {
-    return view('product-detail' );    
-});
 
 Route::get('/checkout', function () {
     return view('checkout' );    
@@ -53,7 +38,7 @@ Route::get('/order-complete', function () {
     return view('order-complete' );    
 });
 
-Route::get('/add-to-wishlist', function () {
+Route::get('/wishlist', function () {
     return view('add-to-wishlist' );    
 });
 
@@ -65,3 +50,16 @@ Route::get('/signup', function () {
     return view('signup' );    
 });
 
+
+Route::post('/signup', [AccountController::class , 'signup']);
+Route::post('/login ', [AccountController::class , 'login'])->name('login');
+Route::get('/logout', [AccountController::class , 'getLogOut'])->name('logout');
+
+
+Route::get('/',[ProductController::class , 'displayAll']);
+Route::get('/men',[ProductController::class , 'displayMale']);
+Route::get('/women',[ProductController::class , 'displayFemale']);
+
+
+Route::get('/product-detail', [ProductController::class , 'findProduct']);
+Route::get('/product-detail', [ProductController::class , 'filter'])->name('Adidas');
