@@ -81,6 +81,11 @@ function adminLogout(Request $request){
     Auth::logout();
     $request->session()->invalidate();
     return redirect('/adminlogin')->with(['loginstatus' => 'Logged Out']);
+
+  }
+
+
+
 }
-}
+
 ?>
