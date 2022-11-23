@@ -10,7 +10,7 @@
                     <div class="col">
                         <div class="breadcrumbs-img"
                             style="background-image: url(https://boutique.humbleandrich.com/wp-content/uploads/2019/01/Adidas-Womens-UltraBoost-X-Running-Shoe-2.jpg);">
-                            <h2 class="">Women's</h2>
+                            <h2 class="changetowhite">Women's</h2>
                         </div>
                         <div class="menu text-center">
                         </div>
@@ -60,7 +60,7 @@
                                 <div class="side border mb-1">
                                     <h3>Brand</h3>
                                     <ul>
-                                        <li><a href="{{ route('Adidas')}}">Adidas</a></li>
+                                        <li><a href="#">Adidas</a></li>
                                         <li><a href="#">Nike</a></li>
                                         <li><a href="#">Gucci</a></li>
                                         <li><a href="#">Converse</a></li>
