@@ -44,19 +44,28 @@
                                     </div>
                                 </div>
                                 <div class="input-group mb-4">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+
+                                        function updateClickCount() {
+                                            document.getElementById("clickCount").innerHTML = clicks;
+                                            document.getElementById('holder').value = clicks;
+
+                                        }
+                                    </script>
+
+
                                     <span class="input-group-btn">
-                                        <button type="button" class="quantity-left-minus btn" data-type="minus"
-                                            data-field="">
-                                            <i class="icon-minus2">–</i>
-                                        </button>
+                                        <button type="button" class="quantity-left-minus btn"
+                                            onClick="clicks--;updateClickCount();" id="push">-</button>
                                     </span>
-                                    <input type="text" id="quantity" name="quantity" class="form-control input-number"
-                                        value="1" min="1" max="100">
+                                    <div id="clickCount" name="quantity" style="width:70% text-align:center" hidden></div>
+                                    <input class="qholder" style="text-align: center" min="1" type="text"
+                                        name="quantity" id="holder" value="1">
                                     <span class="input-group-btn ml-1">
-                                        <button type="button" class="quantity-right-plus btn" data-type="plus"
-                                            data-field="">
-                                            <i class="icon-plus2">＋</i>
-                                        </button>
+                                        <button type="button"
+                                            class="quantity-right-plus btn"onClick="clicks++;updateClickCount();"
+                                            id="push">＋</button>
                                     </span>
                                 </div>
                                 <div class="row">
@@ -64,13 +73,13 @@
                                         <button type="submit" class="btn btn-primary btn-block">
                                             Add to Cart.
                                         </button>
-                                </div>
+                                    </div>
                             </form>
                         </div>
                         @if (session('cartstatus'))
-                                        <div class="alert alert-success">
-                                            {{ session('cartstatus') }}
-                        </div>
+                            <div class="alert alert-success">
+                                {{ session('cartstatus') }}
+                            </div>
                         @endif
                     </div>
                 </div>
@@ -89,41 +98,5 @@
         <a href="#" class="js-gotop"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
 
-
-    <script>
-        $(document).ready(function() {
-
-            var quantitiy = 0;
-            $('.quantity-right-plus').click(function(e) {
-
-                // Stop acting like a button
-                e.preventDefault();
-                // Get the field name
-                var quantity = parseInt($('#quantity').val());
-
-                // If is not undefined
-
-                $('#quantity').val(quantity + 1);
-
-
-                // Increment
-
-            });
-
-            $('.quantity-left-minus').click(function(e) {
-                // Stop acting like a button
-                e.preventDefault();
-                // Get the field name
-                var quantity = parseInt($('#quantity').val());
-
-                // If is not undefined
-
-                // Increment
-                if (quantity > 0) {
-                    $('#quantity').val(quantity - 1);
-                }
-            });
-
-        });
-    </script>
+    <script></script>
 @endsection
