@@ -7,7 +7,8 @@
         <aside id="clr-hero">
             <div class="flexslider">
                 <ul class="slides">
-                    <li style="background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bcc7b3fc0164b349f5aaed201048fe1_9366/Fluidflow_2.0_Shoes_Blue_GW4012_01_standard.jpg);">
+                   
+                    <li style="background-image: url(https://outdoorgearlab-mvnab3pwrvp3t0.stackpathdns.com/photos/25/86/380116_31983_XL.jpg);">
                         <div class="overlay"></div>
                         <div class="container-fluid">
                             <div class="row">
@@ -18,6 +19,7 @@
                                             <h2 class="head-2">Shoes</h2>
                                             <h2 class="head-3">Collection</h2>
                                             <p class="category"><span>New trending shoes</span></p>
+                                            <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -25,7 +27,7 @@
                         </div>
                     </li>
                     <li
-                        style="background-image: url(https://www.chanel.com/images//t_one///q_auto:good,f_auto,fl_lossy,dpr_1.2/w_620/loafers-black-patent-calfskin-metal-patent-calfskin-metal-packshot-artistique-vue1-g39697x5682894305-9516401819678.jpg);">
+                        style="background-image: url(https://media.istockphoto.com/id/1164989573/photo/woman-wearing-yellow-heels.jpg?s=612x612&w=0&k=20&c=NsCBMRzCTUvYjwB0LzJnvJGV3IsLjjpppB53XNINW0k=">
                         <div class="overlay"></div>
                         <div class="container-fluid">
                             <div class="row">
@@ -36,6 +38,7 @@
                                             <h2 class="head-2">Sale</h2>
                                             <h2 class="head-3"><strong class="font-weight-bold">50%</strong> Off</h2>
                                             <p class="category"><span>Big sale sandals</span></p>
+                                            <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +46,7 @@
                         </div>
                     </li>
                     <li
-                        style="background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/376807/03/sv01/fnd/PHL/fmt/png/Deviate-NITRO-);">
+                        style="background-image: url(https://media.kohlsimg.com/is/image/kohls/2022-114625-nav1-m">
                         <div class="overlay"></div>
                         <div class="container-fluid">
                             <div class="row">
@@ -54,6 +57,7 @@
                                             <h2 class="head-2">Arrival</h2>
                                             <h2 class="head-3">up to <strong class="font-weight-bold">30%</strong> off</h2>
                                             <p class="category"><span>New stylish shoes for men</span></p>
+                                            <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -63,36 +67,41 @@
                 </ul>
             </div>
         </aside>
-        <div class="introduction-intro">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h2 class="intro">The journey begins with the perfect pair.</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div class="production-product">
             <div class="container-fluid">
+                <div class="col-sm-8 offset-sm-2 text-center head-heading">
+                    <h2>FEATURED</h2>
+                </div>
                 <div class="row">
-                    <div class="col-sm-6 text-center">
+                    <div class="col-lg-4 text-center" id="featured-images">
                         <div class="featured">
                             <a href="#" class="featured-img"
-                                style="background-image: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bcc7b3fc0164b349f5aaed201048fe1_9366/Fluidflow_2.0_Shoes_Blue_GW4012_01_standard.jpg');"></a>
+                                style="background-image: url(https://pyxis.nymag.com/v1/imgs/a1f/2e8/5dd798dda29b32734aef09765ce9d0e02a-7----.rsquare.w600.jpg"></a>
                             <div class="desc">
-                                <h2><a href="#">Shop Men's Collection</a></h2>
+                                <h2><a href="#">NIKE</a></h2>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 text-center">
-                        <div class="featured">
-                            <a href="#" class="featured-img"
-                                style="background-image: url(https://media.gucci.com/style/HEXEAF2DC_Center_0_0_2400x2400/1656519346/707703_KSP20_8461_001_100_0000_Light-Gucci-Lovelight-crystal-ballet-flat-with-Horsebit.jpg);"></a>
-                            <div class="desc">
-                                <h2><a href="#">Shop Women's Collection</a></h2>
+                    
+                        <div class="col-lg-4 text-center" id="featured-images">
+                            <div class="featured">
+                                <a href="#" class="featured-img"
+                                    style="background-image: url(https://editorialist.com/wp-content/uploads/2022/06/1-Womens-Gucci-Tennis-1977-sneaker.jpg"></a>
+                                <div class="desc">
+                                    <h2 id="women"><a href="#">GUCCI</a></h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-lg-4 text-center" id="featured-images">
+                            <div class="featured">
+                                <a href="#" class="featured-img"
+                                    style="background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/a8eb3fa09d7a4698a41cab9e010ca55c_9366/X9000L3_Shoes_Black_FV4399_01_standard.jpg"></a>
+                                <div class="desc">
+                                    <h2 id="women"><a href="#">ADIDAS</a></h2>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -128,6 +137,34 @@
 					justify-content: center; ">
                     {{ $data->links() }}
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="production-product">
+        <div class="container-fluid">
+            <div class="col-sm-8 offset-sm-2 text-center head-heading">
+                <h2>COLLECTIONS</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center" id="featured-images">
+                    <div class="featured">
+                        <a href="#" class="featured-img"
+                            style="background-image: url(https://media.dunelondon.com/image/upload/v1661936451/core/plp-header/DL_AW22_MENS_SCHEMER__BROWN_700x1000.png"></a>
+                        <div class="desc">
+                            <h2><a href="#">Shop Men's Collection</a></h2>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="col-lg-6 text-center" id="featured-images">
+                        <div class="featured">
+                            <a href="#" class="featured-img"
+                                style="background-image: url(https://www.shoe-tease.com/wp-content/uploads/2019/12/Black-Womens-Waterproof-Combat-Boots-Cougar-Delson.jpg"></a>
+                            <div class="desc">
+                                <h2 id="women"><a href="#">Shop Women's Collection</a></h2>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>

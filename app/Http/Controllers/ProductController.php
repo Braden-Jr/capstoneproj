@@ -50,6 +50,7 @@ class ProductController extends Controller
                 $cart = Cart_items::create($request->userid,$request->itemid,$request->orderedsize,$request->quantity,$orderedprice);
                 $user = User::firstWhere('id', $request->userid);
                 $c=cart_items::where('user_id',$user->id)->get()->count();
+               
                 session()->put('cartitem', $c);
                 return back()->with('cartstatus','Added to Cart.');
             }

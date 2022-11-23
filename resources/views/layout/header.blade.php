@@ -30,7 +30,7 @@
 								</li>
 								<li id="cart"><a href="cart"><i class="fa-solid fa-cart-shopping"></i> Cart [{{ session('cartitem') }}]</a></li>
 								@else
-								<li id="cart"><a href="login"><i class="icon-shopping-cart"></i> Log In</a></li>
+								<li id="cart"><a href="userLogin"><i class="icon-shopping-cart"></i> Log In</a></li>
 								<li id="cart"><a href="signup"><i class="icon-shopping-cart"></i> Sign Up</a></li>
 								<li id="cart"><a href="cart"><i class="fa-solid fa-cart-shopping"></i> Cart [0]</a></li>
 								@endif

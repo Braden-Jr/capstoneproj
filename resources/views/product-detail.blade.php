@@ -46,11 +46,9 @@
                                 <div class="input-group mb-4">
                                     <script type="text/javascript">
                                         var clicks = 0;
-
                                         function updateClickCount() {
                                             document.getElementById("clickCount").innerHTML = clicks;
                                             document.getElementById('holder').value = clicks;
-
                                         }
                                     </script>
 

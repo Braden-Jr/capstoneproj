@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Products;
 use App\Models\Stock_History;
+use App\Models\Transaction;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -110,6 +111,10 @@ class AdminController extends Controller
 
 
 
-
+    function allTransaction(){
+        $products= Transaction::paginate(5); 
+        dd($products);
+        return view('sales',['data'=>$products]);
+    }
 
 }

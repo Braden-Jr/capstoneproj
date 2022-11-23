@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('Description');
             $table->integer('Price');
             $table->string('Images');
+            $table->string('stocks')[0];
             $table->timestamps();
         });
     }

@@ -7,7 +7,7 @@
 
         
     <main>
-        <h2 class="dash-title">Sales</h2>
+        <h2 class="dash-title">Transaction History</h2>
         
        
         
@@ -17,12 +17,7 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">daily</button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">weekly</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">monthly</button>
-            </li>
+         
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> <div class="activity-card">
@@ -30,52 +25,28 @@
                 <table class="table table-striped" style="margin-top:20px;">
                     <thead style="background-color: #90ccbc;">
                       <tr>
-                        <th>Name</th>
-                        <th>UserName</th>
-                        <th>Email</th>
-                        <th>Address</th>
+                        <th style="text-align: center">ProductName</th>
+                        <th style="text-align: center">Email</th>
+                        <th style="text-align: center">Address</th>
+                        <th style="text-align: center">Total Price</th>
               
-                        <th>Status</th>
+                        <th style="text-align: center">Mode Of Paypment</th>
                       </tr>
                     </thead>
            <tbody>
+              {{-- @foreach ($data as $datas)
+                  
+           
                             <tr>
-                                <td>joel</td>
-                                <td>Joel</td>
-                                <td>Joel@joel</td>
-                                <td>Joel's Street</td>
-                                
-                                <td>
-                                          <button style="width: 70px;background-color:#ffc107;border: 2px solid #90ccbc;height: 30px;">Update</button>      
-                                   <button style="width: 70px;background-color:#dc3545;border: 2px solid #90ccbc;height: 30px;color:white">delete</button>      
-                                </td>
+                                <td>{{ $datas->products }}</td>
+                                <td>{{ $datas->email }}</td>
+                                <td>{{ $datas->address }}</td>
+                                <td>{{ $datas->totalprice }}</td>
+                                <td>{{ $datas->modeofpayment }}</td>
+                               
                             </tr>
                             
-                            <tr>
-                                <td>joel</td>
-                                <td>Joel</td>
-                                <td>Joel@joel</td>
-                                <td>Joel's Street</td>
-                     
-                                <td>
-                                          <button style="width: 70px;background-color:#ffc107;border: 2px solid #90ccbc;height: 30px;">Update</button>      
-                                   <button style="width: 70px;background-color:#dc3545;border: 2px solid #90ccbc;height: 30px;color:white">delete</button>      
-                                </td>
-                            </tr>
-                           
-                            
-                            <tr>
-                                <td>joel</td>
-                                <td>Joel</td>
-                                <td>Joel@joel</td>
-                                <td>Joel's Street</td>
-                     
-                                <td>
-                                          <button style="width: 70px;background-color:#ffc107;border: 2px solid #90ccbc;height: 30px;">Update</button>      
-                                   <button style="width: 70px;background-color:#dc3545;border: 2px solid #90ccbc;height: 30px;color:white">delete</button>      
-                                </td>
-                            </tr>
-                           
+           @endforeach --}}
                            
                         </tbody>
                   </table>

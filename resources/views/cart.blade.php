@@ -127,7 +127,7 @@
         </div>
     @else
         <div class="col-sm-8 offset-sm-2 text-center head-heading head-heading-sm pending-login">
-            <h2>Please click <a href="login" style="text-decoration: underline">here</a> to login. </h2>
+            <h2>Please click <a href="userLogin" style="text-decoration: underline">here</a> to login. </h2>
         </div>
     @endif
 @endsection
