@@ -14,14 +14,16 @@ class User extends Authenticatable
     use HasApiTokens, HasFactory, Notifiable;
 
   
-public static function create($name,$email,$password,$address){
+public static function create($name,$email,$password,$address,$type){
     $user = new User();
 
     $user->name=$name;
     $user->email=$email;    
     $user->password=Hash::make($password);
     $user->address=$address;
+    $user->type=$type;
     $user->save();
+    
 
     return $user;
 }

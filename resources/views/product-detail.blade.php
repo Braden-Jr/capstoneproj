@@ -14,7 +14,7 @@
                             <p class="price">
                                 <span>₱ {{ $data->Price }}.00</span>
                             </p>
-                            <p>{{ $data->Description }} </p>
+                            <p>{{ $data->Description }}</p>
                             <div class="size-wrap">
                                 <div class="block-26 mb-2">
                                     <h4>Size</h4>

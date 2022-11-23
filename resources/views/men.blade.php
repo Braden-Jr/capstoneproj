@@ -61,7 +61,7 @@
                             <div class="product-entry border">
                                     <img src={{ $datas->Images }} class="img-fluid" alt="">
                                 <div class="desc">
-                                    <h2><a href="#">{{ $datas->Product_Name }}</a></h2>
+                                    <h2><a href="#">{{$datas->Product_Name  }}</a></h2>
                                     <span class="price">₱ {{ $datas->Price }}.00</span>
 									<form action="product-detail">
 										<input type="text" name="id" value="{{ $datas->id }}" hidden>

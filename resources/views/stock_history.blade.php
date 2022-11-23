@@ -17,12 +17,13 @@
                 <table class="table table-striped" style="margin-top:20px;">
                     <thead style="background-color: #90ccbc;">
                       <tr>
-                        <th>Product Name</th>
-                        <th>Gender</th>
-                        <th>Price</th>
-                        <th>stocks</th>
+                   
+                        <th>Item Id</th>
+                        <th>Stock Added</th>
+                        <th>Time Added</th>
+                      
               
-                        <th>Status</th>
+               
                       </tr>
                     </thead>
            <tbody>
@@ -30,19 +31,11 @@
                 
       
                             <tr>
-                                <td>{{ $datas->Product_Name }}</td>
-                                <td>{{ $datas->Gender }}</td>
-                                <td>{{ $datas->Price }}</td>
-                                <td>{{ $datas->stocks }}</td>
-                                
-                                <td>
-                                      
-                                          <a href="#updatestocks{{ $datas->id }}" class="btn btn-warning" data-bs-toggle="modal"><i class="fa fa-edit">
-                                          </i> Add</a>
-                                          @include('layout.modal')
-                                          
-                                       
-                                </td>
+                                <td>{{ $datas->item_id }}</td>
+                                <td>{{ $datas->stock_added }}</td>
+                                <td>{{ $datas->time_added }}</td>
+                              
+                            
                             </tr>
                             
                             @endforeach

@@ -60,6 +60,7 @@
 			<!-- Password input -->
 			<div class="form-outline mb-4">
 			  <input type="password" name='password' id="form3Example5" class="form-control" />
+			  <input type="text" name='type' value="client" hidden	>
 			  <label class="form-label" for="form3Example4">Password</label>
 			</div>
 

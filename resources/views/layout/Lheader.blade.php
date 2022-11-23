@@ -48,13 +48,7 @@
           <div class="sidebar-menu">
               <ul>
          
-                  <li>
-                      <a href="accounts">
-                          <i class="fa-solid fa-user" style="font-size: 15px;"></i>
-                          <span>Profile</span>
-                      </a>
-  
-                  </li>
+             
                   <li>
                       <a href="dashboard">
                           <span class="ti-briefcase" style="font-size: 15px;"></span>
@@ -69,7 +63,7 @@
                       </a>
                   </li>
                   <li>
-                      <a href="stock">
+                      <a href="stocks">
                           <span class="ti-clipboard" style="font-size: 15px;"></span>
                           <span>Stocks</span>
                       </a>
@@ -81,14 +75,21 @@
                       </a>
                   </li>
                   <li>
-                      <a href="account">
+                      <a href="useraccounts">
                           <span class="ti-id-badge" style="font-size: 15px;"></span>
-                          <span>Accounts</span>
+                          <span>User Accounts</span>
                       </a>
   
                   </li>
                   <li>
-                      <a href="accounts">
+                    <a href="adminaccounts">
+                        <span class="ti-id-badge" style="font-size: 15px;"></span>
+                        <span>Admin Accounts</span>
+                    </a>
+
+                </li>
+                  <li>
+                      <a href="../adminlogout">
                           <i class="fa-solid fa-right-from-bracket" style="font-size: 15px;"></i>
                           <span>Log Out</span>
                       </a>

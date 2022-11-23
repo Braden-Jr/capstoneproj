@@ -23,14 +23,7 @@ class ProductController extends Controller
         return view('women',['data'=>$Female]);
     }
 
-    function filter(Request $request){
-        $filter = Products::where('Gender', '=', 'Female')
-              ->where('Brand', '=', 'Puma')
-              ->get();
-        dd($filter);
-        return view('product-detail',['data'=>$product]);
-    }
-
+  
     function findProduct(Request $request){
         $product =Products::find($request->id);
         return view('product-detail',['data'=>$product]);
