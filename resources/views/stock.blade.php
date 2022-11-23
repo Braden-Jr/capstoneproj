@@ -17,41 +17,55 @@
                 <table class="table table-striped" style="margin-top:20px;">
                     <thead style="background-color: #90ccbc;">
                       <tr>
-                        <th>Product Name</th>
-                        <th>Gender</th>
-                        <th>Price</th>
-                        <th>stocks</th>
+                        <th>Name</th>
+                        <th>UserName</th>
+                        <th>Email</th>
+                        <th>Address</th>
               
                         <th>Status</th>
                       </tr>
                     </thead>
            <tbody>
-            @foreach ($data as $datas)
-                
-      
                             <tr>
-                                <td>{{ $datas->Product_Name }}</td>
-                                <td>{{ $datas->Gender }}</td>
-                                <td>{{ $datas->Price }}</td>
-                                <td>{{ $datas->stocks }}</td>
+                                <td>joel</td>
+                                <td>Joel</td>
+                                <td>Joel@joel</td>
+                                <td>Joel's Street</td>
                                 
                                 <td>
-                                      
-                                          <a href="#updatestocks{{ $datas->id }}" class="btn btn-warning" data-bs-toggle="modal"><i class="fa fa-edit">
-                                          </i> Add</a>
-                                          @include('layout.modal')
-                                          
+                                          <button style="width: 70px;background-color:#ffc107;border: 2px solid #90ccbc;height: 30px;">add</button>      
                                        
                                 </td>
                             </tr>
                             
-                            @endforeach
+                            <tr>
+                                <td>joel</td>
+                                <td>Joel</td>
+                                <td>Joel@joel</td>
+                                <td>Joel's Street</td>
+                     
+                                <td>
+                                          <button style="width: 70px;background-color:#ffc107;border: 2px solid #90ccbc;height: 30px;">add</button>      
+                                       
+                                </td>
+                            </tr>
+                           
+                            
+                            <tr>
+                                <td>joel</td>
+                                <td>Joel</td>
+                                <td>Joel@joel</td>
+                                <td>Joel's Street</td>
+                     
+                                <td>
+                                          <button style="width: 70px;background-color:#ffc107;border: 2px solid #90ccbc;height: 30px;">add</button>      
+                                       
+                                </td>
+                            </tr>
                            
                            
                         </tbody>
                   </table>
-
-                  <div class="row" style="padding-left:20px;border-radius:20px;display:flex;justify-content:center;margin-top:50px;">{{ $data->links() }}</div>
                 
                  
             </div></div>
@@ -59,9 +73,6 @@
           </div>
         
     </main>
-
-      
-
-   
+    
 </div>
 @endsection

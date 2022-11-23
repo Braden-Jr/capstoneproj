@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
             - Bounce midsole
             - Synthetic outsole',
             'Price' => '4300',
-            'Images' => 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3428d4c332f34a0ba75daeae010148bb_9366/Fluidflow_2.0_Shoes_Beige_GW4014_01_standard.jpg'
+            'Images' => 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bcc7b3fc0164b349f5aaed201048fe1_9366/Fluidflow_2.0_Shoes_Blue_GW4012_01_standard.jpg'
         ]);
         DB::table('products')->insert([
             'Brand' => "Adidas",
@@ -202,7 +202,7 @@ class DatabaseSeeder extends Seeder
             - Heel-to-toe drop: 6mm
             - PUMA Formstrip on the lateral side',
             'Price' => '8800',
-            'Images' => 'https://i.pinimg.com/564x/d7/f6/ab/d7f6abbc3a31c4ea6e90740bd46a0ecd.jpg'
+            'Images' => 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/376807/03/sv01/fnd/PHL/fmt/png/Deviate-NITRO-'
         ]);
         DB::table('products')->insert([
             'Brand' => "Puma",
@@ -289,14 +289,14 @@ class DatabaseSeeder extends Seeder
             'Size_2' => "9",
             'Size_3' => "10",
             'Gender' => "Male",
-            'Product_Name' => 'SUEDE MAYU MIX WOMEN`S TRAINERS',
+            'Product_Name' => 'SLIPSTREAM RUNAWAY SNEAKERS WOMEN',
             'Description' => '
             - Leather upper
             - Rubber outsole
             - PUMA Formstrip on the medial and lateral sides
             - PUMA Cat Logo on the heel',
             'Price' => '5200',
-            'Images' => "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/382581/01/sv01/fnd/PHL/fmt/png/Suede-Mayu-Mix-Women's-Trainers"
+            'Images' => 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/386745/01/sv01/fnd/PHL/fmt/png/Slipstream-Runway-Sneakers-Women'
         ]);
         DB::table('products')->insert([
             'Brand' => "Puma",
@@ -353,7 +353,7 @@ class DatabaseSeeder extends Seeder
             - PUMA Logo at lateral side and tongue
             - PUMA Cat Logo at heel',
             'Price' => '3200',
-            'Images' => "https://is4.fwrdassets.com/images/p/fw/z/TFOF-WZ32_V1.jpg"
+            'Images' => "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/370325/07/sv01/fnd/PHL/fmt/png/Carina-Leather-Women's-Trainers"
         ]);
         DB::table('products')->insert([
             'Brand' => "Vans",
@@ -531,7 +531,7 @@ class DatabaseSeeder extends Seeder
             - Trampolite
             - Bounce pad insole system',
             'Price' => '2499',
-            'Images' => 'https://cache.mrporter.com/variants/images/38063312421072535/in/w560_q60.jpg'
+            'Images' => 'https://cdn.shopify.com/s/files/1/0606/6644/6073/products/WBDIMEDROPWHITE_1_1800x1800.jpg?v=1665633959'
         ]);
         DB::table('products')->insert([
             'Brand' => "Tom Ford",
@@ -613,7 +613,7 @@ class DatabaseSeeder extends Seeder
             - sole: leather insole and sole
             - Pointed toe',
             'Price' => '140323',
-            'Images' => 'https://is4.fwrdassets.com/images/p/fw/z/TFOF-WZ42_V1.jpg'
+            'Images' => 'https://is4.fwrdassets.com/images/p/fw/z/TFOF-WZ43_V1.jpg'
         ]);
         DB::table('products')->insert([
             'Brand' => "Tom Ford",
@@ -853,7 +853,7 @@ class DatabaseSeeder extends Seeder
             - Meet the Cloudeasy
             - The minimalist all-day sneaker',
             'Price' => '9164',
-            'Images' => 'https://cdn.shopify.com/s/files/1/0615/7228/4641/products/CLASSICVNMEN_SLOW4500348766WHTCORPRAND03343-177M_OW1_1400x.jpg?v=1656396278'
+            'Images' => 'https://is4.revolveassets.com/images/p4/n/d/ONR-WZ39_V1.jpg'
         ]);
         DB::table('products')->insert([
             'Brand' => "K-Swiss",
@@ -920,7 +920,7 @@ class DatabaseSeeder extends Seeder
             - Buckle-fastening ankle strap
             - Leather sole',
             'Price' => '100065',
-            'Images' => 'https://cdn-images.farfetch-contents.com/19/16/80/38/19168038_42319209_1000.jpg'
+            'Images' => 'https://cdn.shopify.com/s/files/1/0615/7228/4641/products/COURTPROIICMFMEN_SLOW4500346827_WHTMAJBLUVPRBLU03629-169M_OW1_73a6e9c6-db9a-4dd1-9d69-72eadf599f1c_1400x.jpg?v=1656398753'
         ]);
         DB::table('products')->insert([
             'Brand' => "Balenciaga",

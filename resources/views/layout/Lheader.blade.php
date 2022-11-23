@@ -48,12 +48,13 @@
           <div class="sidebar-menu">
               <ul>
          
-                <li>
-                    <a href="profile">
-                        <span class="fa-solid fa-user" style="font-size: 15px;"></span>
-                        <span>Profile</span>
-                    </a>
-                </li>
+                  <li>
+                      <a href="accounts">
+                          <i class="fa-solid fa-user" style="font-size: 15px;"></i>
+                          <span>Profile</span>
+                      </a>
+  
+                  </li>
                   <li>
                       <a href="dashboard">
                           <span class="ti-briefcase" style="font-size: 15px;"></span>
@@ -68,33 +69,26 @@
                       </a>
                   </li>
                   <li>
-                      <a href="stocks">
+                      <a href="stock">
                           <span class="ti-clipboard" style="font-size: 15px;"></span>
                           <span>Stocks</span>
                       </a>
                   </li>
                   <li>
-                      <a href="stockhistory">
+                      <a href="stock_history">
                           <span class="ti-clipboard" style="font-size: 15px;"></span>
                           <span>Stocks History</span>
                       </a>
                   </li>
                   <li>
-                      <a href="useraccounts">
+                      <a href="account">
                           <span class="ti-id-badge" style="font-size: 15px;"></span>
-                          <span>User Accounts</span>
+                          <span>Accounts</span>
                       </a>
   
                   </li>
                   <li>
-                    <a href="adminaccounts">
-                        <span class="ti-id-badge" style="font-size: 15px;"></span>
-                        <span>Admin Accounts</span>
-                    </a>
-
-                </li>
-                  <li>
-                      <a href="../adminlogout">
+                      <a href="accounts">
                           <i class="fa-solid fa-right-from-bracket" style="font-size: 15px;"></i>
                           <span>Log Out</span>
                       </a>

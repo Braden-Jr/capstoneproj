@@ -10,46 +10,73 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="product-desc">
-                            <h3>{{ $data->Product_Name }}</h3>
-                            <p class="price">
-                                <span>₱ {{ $data->Price }}.00</span>
-                            </p>
-                            <p>{{ $data->Description }}</p>
-                            <div class="size-wrap">
-                                <div class="block-26 mb-2">
-                                    <h4>Size</h4>
-                                    <ul>
-                                        <li><a href="#">{{ $data->Size_1 }}</a></li>
-                                        <li><a href="#">{{ $data->Size_2 }}</a></li>
-                                        <li><a href="#">{{ $data->Size_3 }}</a></li>
-                                    </ul>
+                            <form method="POST" action="/addcart">
+                                @csrf
+                                <h3>{{ $data->Product_Name }}</h3>
+                                <p class="price">
+                                    <span> ₱{{ $data->Price }}.00</span>
+                                </p>
+                                <p>{{ $data->Description }} </p>
+                                <div class="size-wrap">
+                                    <div class="block-26 mb-2">
+                                        <h4>Size</h4>
+                                        <input name="userid" value={{ session('user_id') }} hidden>
+                                        <input name="itemid" value={{ $data->id }} hidden>
+
+                                        <input name="price" value={{ $data->Price }} hidden>
+                                        <div style="display:flex">
+
+                                            <input type="radio" class="btn-check radio" value="{{ $data->Size_1 }}"
+                                                name="orderedsize" id="option1" autocomplete="off" hidden>
+                                            <label class="btn btn-secondary radio"
+                                                for="option1">{{ $data->Size_1 }}</label>
+
+                                            <input type="radio" class="btn-check radio" value="{{ $data->Size_2 }}"
+                                                name="orderedsize" id="option2" autocomplete="off" hidden>
+                                            <label class="btn btn-secondary radio"
+                                                for="option2">{{ $data->Size_2 }}</label>
+
+                                            <input type="radio" class="btn-check radio " value="{{ $data->Size_3 }}"
+                                                name="orderedsize" id="option3" autocomplete="off" hidden>
+                                            <label class="btn btn-secondary radio"
+                                                for="option3">{{ $data->Size_3 }}</label>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="input-group mb-4">
-                                <span class="input-group-btn">
-                                    <button type="button" class="quantity-left-minus btn" data-type="minus" data-field="">
-                                        <i class="icon-minus2"></i>
-                                    </button>
-                                </span>
-                                <input type="text" id="quantity" name="quantity" class="form-control input-number"
-                                    value="1" min="1" max="100">
-                                <span class="input-group-btn ml-1">
-                                    <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
-                                        <i class="icon-plus2"></i>
-                                    </button>
-                                </span>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12 text-center">
-                                    <p class="addtocart"><a href="cart.html" class="btn btn-primary btn-addtocart"><i
-                                                class="icon-shopping-cart"></i> Add to Cart</a></p>
+                                <div class="input-group mb-4">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn" data-type="minus"
+                                            data-field="">
+                                            <i class="icon-minus2">–</i>
+                                        </button>
+                                    </span>
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number"
+                                        value="1" min="1" max="100">
+                                    <span class="input-group-btn ml-1">
+                                        <button type="button" class="quantity-right-plus btn" data-type="plus"
+                                            data-field="">
+                                            <i class="icon-plus2">＋</i>
+                                        </button>
+                                    </span>
                                 </div>
-                            </div>
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-block">
+                                            Add to Cart.
+                                        </button>
+                                </div>
+                            </form>
                         </div>
+                        @if (session('cartstatus'))
+                                        <div class="alert alert-success">
+                                            {{ session('cartstatus') }}
+                        </div>
+                        @endif
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>

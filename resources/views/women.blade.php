@@ -10,7 +10,7 @@
                     <div class="col">
                         <div class="breadcrumbs-img"
                             style="background-image: url(https://boutique.humbleandrich.com/wp-content/uploads/2019/01/Adidas-Womens-UltraBoost-X-Running-Shoe-2.jpg);">
-                            <h2 class="changetowhite">Women's</h2>
+                            <h2 class="">Women's</h2>
                         </div>
                         <div class="menu text-center">
                         </div>
@@ -108,7 +108,7 @@
                                         <span class="price">{{ $datas->Price }}</span>
                                         <form action="product-detail">
                                             <input type="text" name="id" value="{{ $datas->id }}" hidden>
-                                            <input type="submit" value="Patingin">
+                                            <input type="submit" class="btn btn-primary" value="See Details">
                                         </form>
                                     </div>
                                 </div>
