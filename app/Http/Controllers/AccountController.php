@@ -57,7 +57,13 @@ class AccountController extends Controller
     ];
     $loginAttempt= Auth::attempt($credential);
     if( $loginAttempt){
-  
+      $request->session()->regenerate();
+      $user = User::firstWhere('email', $request->email);
+     session()->put('username', $user->name);
+     session()->put('email', $user->email);
+     session()->put('address', $user->address);
+     session()->put('type', $user->type);
+     session()->save();
     return redirect('/admin/dashboard');
   }
 

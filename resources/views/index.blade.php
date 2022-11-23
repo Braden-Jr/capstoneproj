@@ -10,7 +10,7 @@
     <main>
         
         <h2 class="dash-title">Dashboard</h2>
-        
+
         <div class="dash-cards">
             <div class="card-single">
                 <div class="card-body">

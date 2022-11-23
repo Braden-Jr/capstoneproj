@@ -34,6 +34,7 @@
                           value="{{ $datas->Price }}" disabled />
                           <input type="text" name="id" value="{{ $datas->id }}" hidden>
                           <input type="text" name="product" value="{{ $datas->Product_Name}}" hidden>
+                          <input type="text" name="admin" value="{{ session('username')}}" hidden>
                         <label class="form-label" for="typeEmailX">Price</label>
                     </div>
                     <div class="form-outline form-white mb-4" >

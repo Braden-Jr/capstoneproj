@@ -48,7 +48,12 @@
           <div class="sidebar-menu">
               <ul>
          
-             
+                <li>
+                    <a href="profile">
+                        <span class="fa-solid fa-user" style="font-size: 15px;"></span>
+                        <span>Profile</span>
+                    </a>
+                </li>
                   <li>
                       <a href="dashboard">
                           <span class="ti-briefcase" style="font-size: 15px;"></span>
@@ -69,7 +74,7 @@
                       </a>
                   </li>
                   <li>
-                      <a href="stock_history">
+                      <a href="stockhistory">
                           <span class="ti-clipboard" style="font-size: 15px;"></span>
                           <span>Stocks History</span>
                       </a>

@@ -63,6 +63,10 @@ Route::get('/signup', function () {
     return view('signup' );    
 });
 
+Route::get('/admin/profile', function () {
+    return view('profile' );    
+});
+
 
 Route::post('/signup', [AccountController::class , 'signup']);
 Route::post('/userLogin ', [AccountController::class , 'userLogin'])->name('userLogin');
@@ -78,6 +82,7 @@ Route::get('/women',[ProductController::class , 'displayFemale']);
 Route::get('/admin/stocks',[AdminController::class , 'displayAll']);
 Route::get('/admin/useraccounts',[AdminController::class , 'allClient']);
 Route::get('/admin/adminaccounts',[AdminController::class , 'allAdmin']);
+Route::get('/admin/stockhistory',[AdminController::class , 'allStockHis']);
 Route::post('/updatestocks ', [AdminController::class , 'updateStock'])->name('updatestock');
 Route::post('/updateclient ', [AdminController::class , 'updateClient'])->name('updateclient');
 Route::post('/deleteclient ', [AdminController::class , 'deleteClient'])->name('deleteClient');

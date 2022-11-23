@@ -5,7 +5,6 @@ use App\Models\Products;
 use App\Models\Stock_History;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Hash, Auth;
 
 
 class AdminController extends Controller
@@ -25,7 +24,7 @@ class AdminController extends Controller
     $stock->stocks = $request->stock + $stock->stocks;
    
     $stock->save();
-    $stock = Stock_History::create($request->product,$request->stock);
+    $stock = Stock_History::create($request->product,$request->stock,$request->admin);
    
     return back()->with("update successfully");
     
@@ -101,6 +100,14 @@ class AdminController extends Controller
             return back()->with('status','Account Created.');
         }
     }
+
+    function allStockHis(){
+        $stockhis= Stock_History::all(); 
+       // dd($stockhis);
+
+        return view('stockhistory',['data'=>$stockhis]);
+    }
+
 
 
 
