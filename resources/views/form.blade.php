@@ -35,6 +35,7 @@
     @include('layout.Lheader')
         
        <div class ="container-flui text-center">
+    
         @yield('contents')
         </div>
      

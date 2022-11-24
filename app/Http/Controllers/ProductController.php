@@ -69,8 +69,9 @@ class ProductController extends Controller
         function setTransaction(Request $request){
            //dd($request->all());
             $wholeaddress = $request->address. " " .$request->address2;
-            $transac = Transaction::create($request->user_id, $request->products, $request->totalprice, $wholeaddress,$request->state, $request->towncity, $request->zippostalcode, $request->email, $request->pnumber,$request->modeofpayment, $request->status);
+            $trans = Transaction::createTransaction($request->user_id,$request->products,$request->totalprice,$request->address,$request->state,$request->towncity,$request->zippostalcode,$request->email,$request->pnumber,$request->modeofpayment,$request->status);
+         
 
-            return view('order-complete' );  
+            return view('order-complete');  
         }
 }

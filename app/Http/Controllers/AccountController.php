@@ -24,12 +24,28 @@ class AccountController extends Controller
     function userLogin(Request $request){ 
         // $users = User::table('id')->count();
         // dd($users);
+        
 
         $credential=[
           'email' => $request->email,
           'password' => $request->password,
           'type' => $request->client
         ];
+
+        $users = User::where('email', $request->email)->get();
+        
+        foreach($users as $useq){
+          if ($useq->status == "Deleted"){
+            return back()->with('status',"Account has been deleted");
+          }
+
+          elseif($useq->type =="admin"){
+            return back()->with('status',"This email is not a client account");
+          }
+          
+        }
+
+      
         $loginAttempt= Auth::attempt($credential);
         if( $loginAttempt){
         $request->session()->regenerate();
@@ -42,9 +58,11 @@ class AccountController extends Controller
         return redirect('/');
       }
 
-    
+      elseif($request->email == ""){
+        return back()->with('status',"You need to input something");
+      }
       else{
-          return back()->with('loginstatus',"incorrect username or password");
+          return back()->with('status',"incorrect username or password");
       }
   }
   function adminLogin(Request $request){ 
@@ -56,6 +74,19 @@ class AccountController extends Controller
       'password' => $request->password,
       'type' => $request->admin
     ];
+    
+    $users = User::where('email', $request->email)->get();
+        
+    foreach($users as $useq){
+      if ($useq->status == "Deleted"){
+        return back()->with('status',"Account has been deleted");
+      }
+
+      elseif($useq->type =="client"){
+        return back()->with('status',"This email is not an admin account");
+      }
+      
+    }
     $loginAttempt= Auth::attempt($credential);
     if( $loginAttempt){
       $request->session()->regenerate();
@@ -68,8 +99,11 @@ class AccountController extends Controller
     return redirect('/admin/dashboard');
   }
 
+  elseif($request->email == ""){
+    return back()->with('status',"You need to input something");
+  }
   else{
-      return back()->with('loginstatus',"incorrect username or password");
+      return back()->with('status',"incorrect username or password");
   }
 }
   function getLogOut(Request $request){

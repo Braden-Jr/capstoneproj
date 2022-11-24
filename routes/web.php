@@ -48,9 +48,7 @@ Route::get('/adminlogin', function () {
     return view('adminlogin' );    
 });
 
-Route::get('/admin/dashboard', function () {
-    return view('index' );    
-});
+
 Route::get('/admin/sales', function () {
     return view('sales' );    
 });
@@ -66,12 +64,10 @@ Route::get('/admin/profile', function () {
 
 
 Route::post('/signup', [AccountController::class , 'signup']);
-Route::post('/userlogin ', [AccountController::class , 'userLogin'])->name('userLogin');
+Route::post('/userLogin ', [AccountController::class , 'userLogin'])->name('userLogin');
 Route::post('/adminLogin ', [AccountController::class , 'adminLogin'])->name('adminLogin');
 Route::get('/logout', [AccountController::class , 'getLogOut'])->name('logout');
 Route::get('/adminlogout', [AccountController::class , 'adminLogout'])->name('adminlogout');
-
-
 
 Route::get('/',[ProductController::class , 'displayAll']);
 Route::get('/men',[ProductController::class , 'displayMale']);
@@ -86,6 +82,7 @@ Route::post('/updatestocks ', [AdminController::class , 'updateStock'])->name('u
 Route::post('/updateclient ', [AdminController::class , 'updateClient'])->name('updateclient');
 Route::post('/deleteclient ', [AdminController::class , 'deleteClient'])->name('deleteClient');
 Route::post('/adminsignup ', [AdminController::class , 'adminSignup'])->name('adminsignup');
+Route::get('/admin/dashboard',[AdminController::class , 'dashboard']);
 
 Route::get('/product-detail', [ProductController::class , 'findProduct']);
 Route::post('/addcart', [ProductController::class , 'addToCart']);

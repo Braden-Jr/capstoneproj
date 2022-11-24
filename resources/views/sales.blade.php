@@ -15,7 +15,7 @@
        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">daily</button>
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Transaction</button>
             </li>
          
           </ul>
@@ -34,7 +34,7 @@
                       </tr>
                     </thead>
            <tbody>
-              {{-- @foreach ($data as $datas)
+               @foreach ($data as $datas)
                   
            
                             <tr>
@@ -46,15 +46,13 @@
                                
                             </tr>
                             
-           @endforeach --}}
+           @endforeach 
                            
                         </tbody>
                   </table>
                 
                  
             </div></div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
           </div>
         
     </main>
