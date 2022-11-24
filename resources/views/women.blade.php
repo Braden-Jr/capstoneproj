@@ -29,6 +29,7 @@
                                 style="background-image: url(https://images.unsplash.com/photo-1531310197839-ccf54634509e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);">
                                 <h2>Casuals</h2>
                             </div>
+                            <p id="span-text">The all-time favourites for the season.</p>
                         </div>
                     </div>
                     <div class="col-sm-4 text-center">
@@ -37,6 +38,8 @@
                                 style="background-image: url(https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);">
                                 <h2>Dress</h2>
                             </div>
+                            <p id="span-text">A standout pieces made from premium materials, designed with elegance in mind.</p>
+
                         </div>
                     </div>
                     <div class="col-sm-4 text-center">
@@ -45,6 +48,7 @@
                                 style="background-image: url(https://i.pinimg.com/originals/dc/0d/32/dc0d32b62a547f542cc999cfeffe6b3a.jpg);">
                                 <h2>Sports</h2>
                             </div>
+                            <p id="span-text">Improve your leg strength with a good quality shoe.</p>
                         </div>
                     </div>
                 </div>
