@@ -17,6 +17,9 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('/userprofile', function () {
+    return view('userprofile' );    
+});
 
 Route::get('/about', function () {
     return view('about' );    

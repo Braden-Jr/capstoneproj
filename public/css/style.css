@@ -76,12 +76,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
-.pending-login{
-  height: 50vh;
-  padding: 15% 0 0 0;
-  text-align: center;
 
-}
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
@@ -4421,6 +4416,7 @@ button.close {
 
 .changetowhite{
   color: white;
+  position: relative;
 }
 
 .modal-backdrop {
@@ -7549,7 +7545,14 @@ h1, h2, h3, h4, h5,
   #clr-hero .flexslider {
     border: none;
     z-index: 1;
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+  }
+  #clr-hero .flexslider .slides li::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    inset: 0;
+  }
     #clr-hero .flexslider .slides {
       position: relative;
       overflow: hidden; }
@@ -7656,8 +7659,17 @@ h1, h2, h3, h4, h5,
         color: #88c8bc; }
 
 .breadcrumbs-img {
-  height: 300px;
+  height: 390px;
   padding: 4em; }
+  .breadcrumbs-img::before {
+  height: 390px;
+  padding: 4em;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  inset: 0;
+  }
+
   @media (max-width: 767.98px) {
     .breadcrumbs-img {
       padding: 2em; } }
@@ -7667,7 +7679,7 @@ h1, h2, h3, h4, h5,
 
 .menu {
   background: #616161;
-  padding: 1.2em;
+ 
   margin-bottom: 30px; }
   .menu p {
     margin-bottom: 0;
@@ -7685,12 +7697,9 @@ h1, h2, h3, h4, h5,
 .introduction-intro,
 .production-product {
   padding: 7em 0;
-  clear: both; }
-
-.cart-img{
-max-width: 30%;
-width: 100%;
+  clear: both; 
 }
+
 .introduction-intro {
   padding-bottom: 0; }
 
@@ -7700,22 +7709,89 @@ width: 100%;
   margin-bottom: 0; }
 
 .featured {
-  width: 100%; }
+  width: 100%;
+  height:150%; 
+  border-radius: 20px;
+}
+#span-text{
+  color: black;
+  font-weight: bold;
+}
+.featured #featured-images{
+  border-radius: 20px;
+}
   .featured .featured-img {
-    height: 240px;
+    height: 500px;
     display: block;
     margin-bottom: 20px;
-    padding: 2em 1em; }
+    position: relative;
+    padding: 2em 1em; 
+    border-radius: 50px;
+  
+  }
+  .featured .featured-img::before{
+    height: 500px;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 2em 1em; 
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+  }
+
     .featured .featured-img h2 {
       color: #fff;
       text-transform: uppercase;
-      font-size: 40px; }
+      font-size: 40px;
+    position: absolute; 
+    top: 150px;
+    left: 100px;}
     .featured .featured-img.featured-img-2 {
-      height: 400px; }
+      height: 400px; 
+    }
+    .featured .featured-img.featured-img-2::before {
+      height: 400px; 
+      content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    }
   .featured .desc h2 {
     font-size: 40px; }
     .featured .desc h2 a {
-      color: #000; }
+      color: #000;
+      position: absolute;
+      top: 199px;
+      left: 115px;
+      color: white;
+     }
+     .featured .desc #women a{
+      color: #000;
+      position: absolute;
+      top: 199px;
+      left: 85px;
+      color: white;
+     }
+     .featured .desc #kids a{
+      color: #000;
+      position: absolute;
+      top: 199px;
+      left: 115px;
+      color: white;
+     }
+     .prod-img:hover{
+      max-height: 70%;
+      min-height: 1%;
+
+     }
+     #featured-text {
+      text-align: center;
+      padding-bottom: 4px;
+     }
 
 /* .featured-img{
   width: 90%;
