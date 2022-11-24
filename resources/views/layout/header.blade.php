@@ -22,8 +22,6 @@
 								<li class=" has-dropdown" id="cart">
 									<a href="men">{{ session('username') }}</a>
 									<ul class="dropdown">
-										<li><a href="profile">Profile</a></li>
-										<li><a href="history">History</a></li>
 										<li><a href="logout">Logout</a></li>
 					
 									</ul>
@@ -32,7 +30,7 @@
 								@else
 								<li id="cart"><a href="userLogin"><i class="icon-shopping-cart"></i> Log In</a></li>
 								<li id="cart"><a href="signup"><i class="icon-shopping-cart"></i> Sign Up</a></li>
-								<li id="cart"><a href="cart"><i class="fa-solid fa-cart-shopping"></i> Cart [0]</a></li>
+								<li id="cart"><a href="ecart"><i class="fa-solid fa-cart-shopping"></i> Cart [0]</a></li>
 								@endif
 							</ul>
 						</div>

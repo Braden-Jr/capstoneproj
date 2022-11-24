@@ -65,6 +65,10 @@ Route::get('/admin/profile', function () {
     return view('profile' );    
 });
 
+Route::get('/ecart', function (){
+    return view('ecart');
+});
+
 
 Route::post('/signup', [AccountController::class , 'signup']);
 Route::post('/userLogin ', [AccountController::class , 'userLogin'])->name('userLogin');
