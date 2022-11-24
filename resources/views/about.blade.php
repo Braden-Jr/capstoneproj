@@ -17,7 +17,7 @@
 					<div class="col-sm-6">
 						<div class="about-wrap">
 							<h2>The fastest growing sneaker company you’ve never heard of</h2>
-							<p>JBJRL faces growing competition from Internet-based businesses that sell similar merchandise, often at deep discounts. Many price-conscious customers visit your brick-and-mortar store, try on a pair of desirable shoes and order the footwear from the online retailer. You can address this revenue loss by forming a partnership with a supply-chain specialty firm. When a customer wants a specific shoe size, and your store does not stock that pair, the supply chain firm locates the shoes at a nearby store. Your customer purchases the shoes from that retailer, and you receive sales revenue according to your agreement with your supply chain partner.</p>
+							<h3>JBJRL is your place for athletic and easygoing shoes for the entire family from many name brands. You’ll discover styles for ladies, men and children from brands like Adidas, Nike, Gucci, Converse , and Puma !</h3>
 							
 						</div>
 					</div>
